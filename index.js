@@ -1,7 +1,6 @@
 //vars = require('./vars');
 var dash_button = require('node-dash-button');
 var WebHooks = require('node-webhooks');
-//var device;
 //var structure;
 var dash = dash_button(["AC:63:BE:D0:05:AD","AC:63:BE:38:02:6E","AC:63:BE:39:C4:D2"],null, null, 'all');
 var http = require('http');
